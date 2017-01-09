@@ -1,0 +1,63 @@
+/*
+Colors:
+#065D7F rgba( 6, 93, 127, 1)
+#54CEFF rgba( 84, 206, 255, 1)
+#0CBAFF rgba(12, 186, 255, 1)
+#C6E7F5 rgba(198, 231, 245, 1)
+#0995CC rgba(9, 149, 204, 1)
+#505E63 rgba(80, 94, 99, 1)
+#212729 rgba(33, 39, 41, 1)
+
+
+*/
+
+body {
+  /*background: linear-gradient( 180deg, black, #1f0f52 );*/
+  font-family: Open Sans;
+  border: 0px;
+  font-size: 16px;
+  height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, ul {
+  margin: 0px;
+}
+
+
+/*Stuff above is for the whole document*/
+
+.contain {
+    /*width: 80%;*/
+    margin: 0 auto;
+}
+.top-bar {
+    /*background-color: rgba(72, 238, 249, 1);*/
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+
+}
+
+.top-bar h1 {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.hello, .history, .skills, .projects, .education, .contact {
+    font-family: 'Bitter', serif;
+    margin: 1em 0;
+    padding: 2em;
+}
+
+.hello, .skills, .education {
+    background-color: #065D7F;
+    color: white;
+}
+
+.history, .projects, .contact {
+    background-color: #54CEFF;
+    background-color: #0995CC;
+
+}
+
+.history
