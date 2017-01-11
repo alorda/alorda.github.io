@@ -52,16 +52,29 @@ p, h1, h2, h3, h4, h5, ul {
 }
 
 .hello {
-    background-color: rgba(198, 231, 245, 1);
+    background-color: rgba(80, 94, 99, 1);
 }
-
 .hello h1 {
     font-size: 5em;
+    color: orange;
+}
+.hello h2 {
+    font-size: 2.5em;
 }
 
-.hello h2 {
-    font-size: 1.5em;
+@media (min-width: 768px) {
+    .hello {
+        background-color: rgba(198, 231, 245, 1);
+    }
+    .hello h1 {
+        font-size: 10em;
+        color: pink;
+    }
+    .hello h2 {
+        font-size: 1.5em;
+    }
 }
+
 
 .hello, .history, .skills, .projects, .education, .contact {
     font-family: 'Bitter', serif;
