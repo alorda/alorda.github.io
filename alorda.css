@@ -11,6 +11,14 @@ Colors:
 
 */
 
+/*html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}*/
+
 body {
   /*background: linear-gradient( 180deg, black, #1f0f52 );*/
   font-family: Open Sans;
@@ -43,21 +51,19 @@ p, h1, h2, h3, h4, h5, ul {
     text-align: center;
 }
 
+.hello {
+    background-color: rgba(198, 231, 245, 1);
+}
+
+.hello h1 {
+    font-size: 5em;
+}
+
+.hello h2 {
+    font-size: 1.5em;
+}
+
 .hello, .history, .skills, .projects, .education, .contact {
     font-family: 'Bitter', serif;
-    margin: 1em 0;
     padding: 2em;
 }
-
-.hello, .skills, .education {
-    background-color: #065D7F;
-    color: white;
-}
-
-.history, .projects, .contact {
-    background-color: #54CEFF;
-    background-color: #0995CC;
-
-}
-
-.history
