@@ -1,26 +1,25 @@
 /*
 Colors:
-#065D7F rgba( 6, 93, 127, 1)
-#54CEFF rgba( 84, 206, 255, 1)
-#0CBAFF rgba(12, 186, 255, 1)
-#C6E7F5 rgba(198, 231, 245, 1)
-#0995CC rgba(9, 149, 204, 1)
-#505E63 rgba(80, 94, 99, 1)
-#212729 rgba(33, 39, 41, 1)
+#3D3F40 rgba(61, 63, 64, 1) text
+#7A7D7F rgba(122, 125, 127, 1) dark background
+#B7BCBF rgba(183, 188, 191, 1)
+#DBE2E5 rgba(219, 226, 229, 1)
+#F4FBFF rgba(244, 251, 255, 1) background
 
 
 */
 
-/*html {
+html {
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
-}*/
+}
 
 body {
   /*background: linear-gradient( 180deg, black, #1f0f52 );*/
+  background-color: rgba(244, 251, 255, 1);
   font-family: Open Sans;
   border: 0px;
   font-size: 16px;
@@ -32,27 +31,30 @@ p, h1, h2, h3, h4, h5, ul {
 }
 
 
+
 /*Stuff above is for the whole document*/
 
 .contain {
-    /*width: 80%;*/
     margin: 0 auto;
 }
+
 .top-bar {
-    /*background-color: rgba(72, 238, 249, 1);*/
+    background-color: rgba(61, 63, 64, 1);
+    font-family: 'Bitter', serif;
     /*position: fixed;
     top: 0;
     width: 100%;*/
-
 }
 
 .top-bar h1 {
-    font-size: 3.5em;
+    font-size: 2.5em;
+    color: orange;
     text-align: center;
 }
 
+/*Hello Styles*/
 .hello {
-    background-color: rgba(80, 94, 99, 1);
+    background-color: rgba(122, 125, 127, 1);
 }
 .hello h1 {
     font-size: 5em;
@@ -63,12 +65,8 @@ p, h1, h2, h3, h4, h5, ul {
 }
 
 @media (min-width: 768px) {
-    .hello {
-        background-color: rgba(198, 231, 245, 1);
-    }
     .hello h1 {
         font-size: 10em;
-        color: pink;
     }
     .hello h2 {
         font-size: 1.5em;
@@ -79,4 +77,21 @@ p, h1, h2, h3, h4, h5, ul {
 .hello, .history, .skills, .projects, .education, .contact {
     font-family: 'Bitter', serif;
     padding: 2em;
+}
+
+/*Skills Styles*/
+
+.skills-icon-group {
+    list-style: none;
+}
+
+.skill-icon {
+    display: inline-block;
+    font-size: 5em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: orange;
+
+}
+.skill-icon i.fa {
+    color: orange;
 }
