@@ -32,7 +32,6 @@ p, h1, h2, h3, h4, h5, ul {
 }
 
 .top-bar {
-    background-color: rgba(61, 63, 64, 1);
     font-family: 'Bitter', serif;
     /*position: fixed;
     top: 0;
@@ -47,23 +46,23 @@ p, h1, h2, h3, h4, h5, ul {
 
 .hello, .history, .skills, .projects, .education, .contact {
     font-family: 'Bitter', serif;
-    padding: 2em;
+    padding: 1em;
 }
 
 /*Hello Styles*/
 .hello {
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 .hello h1 {
     font-size: 5em;
 }
 .hello h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
     .hello {
-        background-color: rgba(122, 125, 127, 1);
+        /*background-color: rgba(122, 125, 127, 1);*/
     }
     .hello h1 {
         font-size: 10em;
@@ -74,21 +73,30 @@ p, h1, h2, h3, h4, h5, ul {
     }
 }
 
-
-
-
-
+/*History Styles*/
+.history p {
+    font-size: 2em;
+}
 /*Skills Styles*/
+
+.skills p {
+    font-size: 2em;
+}
 
 .skills-icon-group {
     list-style: none;
+    padding: 1em 0 0 0;
 }
 
 .skill-icon {
     display: inline-block;
-    font-size: 5em;
+    font-size: 3em;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
     color: orange;
+    padding: 2%;
+    width: 15%;
+}
 
 }
 .skill-icon i.fa {
