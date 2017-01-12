@@ -5,20 +5,17 @@ Colors:
 #B7BCBF rgba(183, 188, 191, 1)
 #DBE2E5 rgba(219, 226, 229, 1)
 #F4FBFF rgba(244, 251, 255, 1) background
-
-
 */
 
-html {
+/*html {
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
-}
+}*/
 
 body {
-  /*background: linear-gradient( 180deg, black, #1f0f52 );*/
   background-color: rgba(244, 251, 255, 1);
   font-family: Open Sans;
   border: 0px;
@@ -29,10 +26,6 @@ body {
 p, h1, h2, h3, h4, h5, ul {
   margin: 0px;
 }
-
-
-
-/*Stuff above is for the whole document*/
 
 .contain {
     margin: 0 auto;
@@ -52,32 +45,38 @@ p, h1, h2, h3, h4, h5, ul {
     text-align: center;
 }
 
-/*Hello Styles*/
-.hello {
-    background-color: rgba(122, 125, 127, 1);
-}
-.hello h1 {
-    font-size: 5em;
-    color: orange;
-}
-.hello h2 {
-    font-size: 2.5em;
-}
-
-@media (min-width: 768px) {
-    .hello h1 {
-        font-size: 10em;
-    }
-    .hello h2 {
-        font-size: 1.5em;
-    }
-}
-
-
 .hello, .history, .skills, .projects, .education, .contact {
     font-family: 'Bitter', serif;
     padding: 2em;
 }
+
+/*Hello Styles*/
+.hello {
+    background-color: yellow;
+}
+.hello h1 {
+    font-size: 5em;
+}
+.hello h2 {
+    font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+    .hello {
+        background-color: rgba(122, 125, 127, 1);
+    }
+    .hello h1 {
+        font-size: 10em;
+        color: orange;
+    }
+    .hello h2 {
+        font-size: 2.5em;
+    }
+}
+
+
+
+
 
 /*Skills Styles*/
 
