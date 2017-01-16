@@ -52,6 +52,7 @@ p, h1, h2, h3, h4, h5, ul {
 /*Hello Styles*/
 .hello {
     /*background-color: yellow;*/
+    opacity: 0.2;
 }
 .hello h1 {
     font-size: 5em;
