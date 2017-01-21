@@ -17,7 +17,7 @@ $("h1").click(function(){
 $("document").ready(function() {
     $(".hello").animate({
         opacity: 1.0,
-    }, 800, function() {
+    }, 1200, function() {
         console.log("happened when page loaded.");
     });
 

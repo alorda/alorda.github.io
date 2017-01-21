@@ -30,9 +30,14 @@ p, h1, h2, h3, h4, h5, ul {
 .contain {
     margin: 0 auto;
 }
+.contain div:nth-child(2n+0) {
+    background-color: #B7BCBF;
+    box-shadow: 0px 0px 30px 1px #7A7D7F;
+}
 
 .fade-me-in {
     opacity: 0;
+
 }
 
 .top-bar {
@@ -78,15 +83,13 @@ p, h1, h2, h3, h4, h5, ul {
     }
 }
 
+/* All section styles for paragraphs */
+.history p, .skills p, .projects p, .education p, .contact p {
+    font-size: 2em;
+}
 /*History Styles*/
-.history p {
-    font-size: 2em;
-}
-/*Skills Styles*/
 
-.skills p {
-    font-size: 2em;
-}
+/*Skills Styles*/
 
 .skills-icon-group {
     list-style: none;
