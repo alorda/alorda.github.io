@@ -25,7 +25,7 @@ $("document").ready(function() {
     $(window).scroll( function(){
 
         /* Check the location of each desired element */
-        $('.hideme').each( function(i){
+        $('.fade-me-in').each( function(i){
 
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
