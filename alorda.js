@@ -45,6 +45,4 @@ $("document").ready(function() {
 var logHistScrollTop = function() {
     var historyScrollTop = $(".history").scrollTop();
     var historyOffset = $(".history").offset().top;
-    console.log("history scroll top is: ", historyScrollTop);
-    console.log("history offset is: ", historyOffset);
 }
