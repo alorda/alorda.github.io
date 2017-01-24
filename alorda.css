@@ -112,7 +112,7 @@ body, p, h1, h2, h3, h4, h5, ul {
 
 .hello, .history, .skills, .projects, .education, .contact {
     font-family: 'Bitter', serif;
-    padding: 1em;
+    padding: 2.5em;
 }
 
 /*Hello Styles*/
@@ -146,7 +146,7 @@ body, p, h1, h2, h3, h4, h5, ul {
 }
 /*History Styles*/
 .history {
-    background-color: #C0891A;
+    /*background-color: #C0891A;*/
 }
 
 /*Skills Styles*/
@@ -173,12 +173,12 @@ body, p, h1, h2, h3, h4, h5, ul {
 
 /* Projects Styles */
 .projects {
-    background-color: #136477;
+    /*background-color: #136477;*/
 }
 
 /* Education Styles */
 .education {
-    background-color: #C0891A;
+    /*background-color: #C0891A;*/
 }
 
 /* Contact Styles */
