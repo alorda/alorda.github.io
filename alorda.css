@@ -67,11 +67,11 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
-}*/
+}
 
 body {
     /*background-color: rgba(44, 44, 44, 1);*/
-    font-family: Open Sans;
+    font-family: 'Bitter', serif;
     border: 0px;
     font-size: 16px;
     height: 100%;
@@ -82,13 +82,26 @@ body, p, h1, h2, h3, h4, h5, ul {
 }
 
 .contain {
-    background-color: rgba(44, 44, 44, 1);
+    /*background-color: rgba(44, 44, 44, 1);*/
     margin: 0 auto;
     color: #2C2C2C;
 }
 .contain div:nth-child(2n+0) {
     /*background-color: #7B99A0 ;*/
     /*box-shadow: 0px 0px 30px 1px #7A7D7F;*/
+}
+
+.float-container:before,
+.float-container:after {
+  content: "";
+  display: table;
+}
+.float-container:after {
+  clear: both;
+}
+.float-container {
+  clear: both;
+  *zoom: 1;
 }
 
 .fade-me-in {
@@ -109,6 +122,35 @@ body, p, h1, h2, h3, h4, h5, ul {
     /*color: orange;*/
     text-align: center;
 }
+
+.main {
+    /*background-image: url('jona_typing.jpg');
+    background-size: cover;*/
+}
+section.main-left {
+    margin: 5%;
+}
+
+.main-left {
+    width: 70%;
+}
+
+.main-left h1 {
+    font-size: 2em;
+}
+
+.main-left h3 {
+    font-size: 1.75em;
+}
+
+.main-left p {
+    font-size: 1.25em;
+}
+/*Will need media query for desktop*/
+/*.main-left, {
+    width: 50%;
+    float: left;
+}*/
 
 .hello, .history, .skills, .projects, .education, .contact {
     font-family: 'Bitter', serif;
