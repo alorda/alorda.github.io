@@ -81,6 +81,14 @@ body, p, h1, h2, h3, h4, h5, ul {
     margin: 0px;
 }
 
+a:visited {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
 .contain {
     /*background-color: rgba(44, 44, 44, 1);*/
     margin: 0 auto;
@@ -182,6 +190,14 @@ section.main-left {
 /* Projects Styles */
 .projects {
     padding: 1em;
+}
+
+.projects a:visited {
+    color: black;
+}
+
+.projects a {
+    color: black;
 }
 
 /* Education Styles */
