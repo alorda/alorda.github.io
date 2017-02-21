@@ -91,6 +91,7 @@ body, p, h1, h2, h3, h4, h5, ul {
     /*box-shadow: 0px 0px 30px 1px #7A7D7F;*/
 }
 
+/*Fixes floats*/
 .float-container:before,
 .float-container:after {
   content: "";
@@ -105,7 +106,7 @@ body, p, h1, h2, h3, h4, h5, ul {
 }
 
 .fade-me-in {
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 .top-bar {
@@ -126,25 +127,28 @@ body, p, h1, h2, h3, h4, h5, ul {
 .main {
     /*background-image: url('jona_typing.jpg');
     background-size: cover;*/
+    padding: 1em;
 }
+
 section.main-left {
-    margin: 5%;
+    margin: 1em 0;
 }
 
 .main-left {
     width: 70%;
 }
 
-.main-left h1 {
+.main-title h1 {
     font-size: 2em;
 }
 
-.main-left h3 {
+.main-title h3 {
     font-size: 1.75em;
 }
 
 .main-left p {
     font-size: 1.25em;
+    margin-top: 1em;
 }
 /*Will need media query for desktop*/
 /*.main-left, {
@@ -152,70 +156,32 @@ section.main-left {
     float: left;
 }*/
 
-.hello, .history, .skills, .projects, .education, .contact {
-    font-family: 'Bitter', serif;
-    padding: 2.5em;
-}
-
-/*Hello Styles*/
-.hello {
-    background-color: #136477;
-    opacity: 0.1;
-}
-.hello h1 {
-    font-size: 5em;
-}
-.hello h2 {
-    font-size: 2.5em;
-}
-
 @media (min-width: 640px) {
-    .hello {
-        /*background-color: rgba(122, 125, 127, 1);*/
-    }
-    .hello h1 {
-        font-size: 10em;
-        /*color: orange;*/
-    }
-    .hello h2 {
-        font-size: 2.5em;
-    }
+
 }
 
-/* All section styles for paragraphs */
-.history p, .skills p, .projects p, .education p, .contact p {
-    font-size: 2em;
-}
-/*History Styles*/
-.history {
-    /*background-color: #C0891A;*/
-}
+/*Contact Styles*/
 
-/*Skills Styles*/
-
-.skills-icon-group {
+.contact-icon-group {
     list-style: none;
-    padding: 1em 0 0 0;
+    padding: 1em 0;
 }
 
-.skill-icon {
+.contact-icon {
     display: inline-block;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
-    /*color: orange;*/
-    padding: 2%;
-    width: 15%;
+    width: 24%;
+    text-align: center;
 }
-
-}
-.skill-icon i.fa {
+.contact-icon i.fa {
     /*color: orange;*/
 }
 
 /* Projects Styles */
 .projects {
-    /*background-color: #136477;*/
+    padding: 1em;
 }
 
 /* Education Styles */
