@@ -85,19 +85,19 @@ body, p, h1, h2, h3, h4, h5, ul {
     margin: 0px;
 }
 
-a:visited {
-    color: white;
-}
-
 a {
     color: white;
 }
 
-a:hover {
+a:visited {
     color: white;
 }
 
-a:active {
+a:hover {
+    color: red;
+}
+
+a:focus {
     color: red;
 }
 
