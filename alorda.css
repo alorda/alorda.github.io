@@ -98,10 +98,10 @@ a:hover {
 }
 
 .contain {
-    margin: 7em auto 7em auto;
+    margin: 9em auto 10em auto;
     color: white;
     background-color: rgba(50,50,50,0.35);
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 /*Fixes floats*/
