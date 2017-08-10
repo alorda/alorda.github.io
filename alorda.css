@@ -92,7 +92,7 @@ a {
 
 .contain {
     /*background-color: rgba(44, 44, 44, 1);*/
-    margin: 0 auto 76px auto;
+    margin: 2.5em auto;
     color: #2C2C2C;
 }
 .contain div:nth-child(2n+0) {
@@ -120,9 +120,11 @@ a {
 
 .top-bar {
     font-family: 'Bitter', serif;
-    /*position: fixed;
+    position: fixed;
     top: 0;
-    width: 100%;*/
+    left: 0;
+    right: 0;
+    /*width: 100%;*/
     background-color: #C03D1A;
     color: #2C2C2C;
 }
@@ -165,8 +167,22 @@ section.main-left {
     float: left;
 }*/
 
-@media (min-width: 640px) {
+@media (min-width: 500px) {
+    .contain {
+        width: 80%;
+    }
+}
 
+@media (min-width: 800px) {
+    .contain {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .contain {
+        width: 65%;
+    }
 }
 
 /*Contact Styles*/
