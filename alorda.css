@@ -97,6 +97,10 @@ a:hover {
     color: white;
 }
 
+a:active {
+    color: red;
+}
+
 .contain {
     margin: 9em auto 10em auto;
     color: white;
