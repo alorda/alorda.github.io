@@ -102,7 +102,8 @@ a:hover {
 }*/
 
 .contain {
-    margin: 9em auto 10em auto;
+    margin: 8em auto;
+    padding: 2em 0 2em 0;
     color: white;
     background-color: rgba(50,50,50,0.35);
     border-radius: 3px;
