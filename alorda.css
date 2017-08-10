@@ -63,6 +63,7 @@ Colors:
 
 html {
     box-sizing: border-box;
+    height: 100%;
 }
 
 *, *:before, *:after {
@@ -91,7 +92,7 @@ a {
 
 .contain {
     /*background-color: rgba(44, 44, 44, 1);*/
-    margin: 0 auto;
+    margin: 0 auto 76px auto;
     color: #2C2C2C;
 }
 .contain div:nth-child(2n+0) {
@@ -192,6 +193,10 @@ section.main-left {
     padding: 1em;
 }
 
+.projects p {
+    font-size: 1.25em;
+}
+
 .projects a:visited {
     color: black;
 }
@@ -206,6 +211,11 @@ section.main-left {
 }
 
 /* Contact Styles */
-.contact {
+.contact-footer {
     background-color: #C03D1A;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*width: 100%;*/
 }
