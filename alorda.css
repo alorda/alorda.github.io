@@ -97,9 +97,9 @@ a:hover {
     color: red;
 }
 
-a:focus {
+/*a:focus {
     color: red;
-}
+}*/
 
 .contain {
     margin: 9em auto 10em auto;
